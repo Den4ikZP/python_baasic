@@ -4,8 +4,7 @@ def shortes(string, tpl):
 strip = 'abcd'
 number = (10, 20, 30, 40)
 
-pairs = ((strip[i_elem], number[i_elem])
-         for i_elem in range(shortes(strip, number)))
+pairs = ((strip[i_elem], number[i_elem]) for i_elem in range(shortes(strip, number)))
 print(pairs)
 
 for i_elem in pairs:
